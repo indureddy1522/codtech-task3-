@@ -1,0 +1,28 @@
+const navLinks = document.querySelectorAll("header nav ul li a");
+
+navLinks.forEach(link => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault(); // Prevent default anchor click behavior
+    
+    const targetId = link.getAttribute("href").substring(1);
+    const targetSection = document.getElementById(targetId);
+    
+  
+    targetSection.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  });
+});
+
+
+function showDetails(projectCard) {
+  const description = projectCard.querySelector('p');
+  description.style.display = "block";
+}
+
+
+function hideDetails(projectCard) {
+  const description = projectCard.querySelector('p');
+  description.style.display = "none"; 
+}
