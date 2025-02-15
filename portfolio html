@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Developer Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Maripeddi Indusri Reddy</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello! I'm Maripeddi Indusri Reddy, a passionate web developer. I specialize in front-end development and creating responsive, user-friendly websites. I'm always learning new technologies and looking for ways to improve my skills.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+         <h3>Project 1</h3>
+          <p>This project showcases a responsive website of Interactive Quiz Application built with HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/indureddy1522/codtech-internship-task1" class="btn">View Project</a>
+        </div>
+        <div class="project-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+         <h3>Project 2</h3>
+          <p>A web application of Real Time Chat Application built HTML,CSS,JAVASCRIPT with .</p>
+          <a href="https://github.com/indureddy1522/codetech-task2-" class="btn">View Project</a>
+        </div>
+        <div class="project-card" onmouseover="showDetails(this)" onmouseout="hideDetails(this)">
+         
+          <h3>Project 3</h3>
+          <p>An website designed with HTML, CSS, and JAVASCRIPT TO show a simple calculator</p>
+          <a href="https://github.com/indureddy1522/calculator-task/tree/main" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to work with me or just want to say hello, feel free to reach out!</p>
+      <a href="mailto:indureddymaripeddi@gmail.com" class="btn">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Maripeddi Indusri Reddy All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="portfoliojs"></script>
+</body>
+</html>
